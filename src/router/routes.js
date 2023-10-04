@@ -5,7 +5,9 @@ const routes = [
     component: () => import('layouts/MainLayout.vue'),
     children: [
       { path: '', component: () => import('pages/IndexPage.vue') },
-      { path: '/image', component: () => import('pages/imageAdd.vue') }
+      { path: '/image', component: () => import('pages/imageAdd.vue') },
+      { path: '/single', component: () => import('pages/singleImg.vue') },
+      { path: '/bsti', component: () => import('pages/bstiPhoto.vue') }
     ]
   },
 

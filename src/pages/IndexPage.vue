@@ -20,7 +20,7 @@
           <div class="h-[600px] w-[550px]">
             <img
               class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
-              src="https://lh3.googleusercontent.com/p/AF1QipPSyLLCxT_7jnLwSGEbkFqXrO120u0IxW_t_f6x=s680-w680-h510"
+              src="http://localhost:8080/img/12.0739e84d.jpg"
               alt=""
             />
           </div>
@@ -53,7 +53,7 @@
           <div class="h-[600px] w-[550px]">
             <img
               class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
-              src="https://lh3.googleusercontent.com/p/AF1QipP00X88Ic7QlaY0CMIBetP39ED_DDe5JZXlcYp8=s680-w680-h510"
+              src="https://lh3.googleusercontent.com/p/AF1QipPSyLLCxT_7jnLwSGEbkFqXrO120u0IxW_t_f6x=s680-w680-h510"
               alt=""
             />
           </div>
@@ -108,9 +108,9 @@
 
             </p>
             <q-btn
-              href="https://zihadulislam45.netlify.app/#/"
+              to="/bsti"
               rounded
-              label="Live Project"
+              label="Click Here"
               class="py-2 px-5 font-com text-sm bg-teal-950 hover:text-teal-200 text-white capitalize shadow shadow-black/60"
             />
           </div>
@@ -119,12 +119,7 @@
     </div>
   </section>
 
-  <section>
-    <q-uploader
-        url="http://localhost:4444/upload"
-        style="max-width: 300px"
-      />
-  </section>
+
   </div>
 
 

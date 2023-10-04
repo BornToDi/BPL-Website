@@ -53,22 +53,22 @@ import EssentialLink from 'components/EssentialLink.vue'
 
 const linksList = [
   {
-    title: 'Docs',
+    title: 'History',
 
-    icon: 'school',
-    link: 'https://quasar.dev'
+    icon: 'book',
+    link: '/'
   },
   {
-    title: 'Github',
+    title: 'Group Image',
 
-    icon: 'code',
-    link: 'https://github.com/quasarframework'
+    icon: 'group',
+    link: 'http://localhost:8080/#/image'
   },
   {
-    title: 'Discord Chat Channel',
+    title: 'Players Image',
 
-    icon: 'chat',
-    link: 'https://chat.quasar.dev'
+    icon: 'people',
+    link: 'http://localhost:8080/#/single'
   },
   {
     title: 'Forum',
