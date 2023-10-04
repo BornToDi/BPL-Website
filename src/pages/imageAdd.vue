@@ -2,7 +2,7 @@
   <div class="row flex px-5 py-5  bg-indigo-950 h-full   text-center">
     <q-img class="border-4  border-amber-500 col-6 col-md-4 h-[100px]  rounded text-center" src="~assets/g1.jpg">
     </q-img>
-    <q-img class="border-4  border-amber-500 col-6 col-md-4 h-[100px]  rounded text-center" src="~assets/g2.jpg">
+    <q-img class="border-4 md:border-2  border-amber-500 col-6 col-md-4 h-[100px]  rounded text-center" src="~assets/g2.jpg">
     </q-img>
       <q-img class="border-4  border-amber-500 col-6 col-md-4 h-[100px]  rounded text-center" src="~assets/player1.jpg">
     </q-img>

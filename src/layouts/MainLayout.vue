@@ -1,8 +1,10 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <q-header elevated class="bg-sky-950 text-yellow-400 text-bold">
-      <q-toolbar>
-        <q-btn
+    <q-header elevated class=" bg-sky-950 text-yellow-400 text-bold">
+
+        <div class="row">
+          <div class="col-12 col-md-8 flex mt-5 md:mt-0 pl-2 md:pl-5 ">
+          <q-btn
           flat
           dense
           round
@@ -11,13 +13,20 @@
           @click="toggleLeftDrawer"
         />
 
-        <q-toolbar-title class="py-5">
+        <div class="py-5 md:text-xl">
           BSTI Premiure League
           <q-img class="rounded-3xl h-[40px] w-[40px] animate-bounce" src="https://e0.pxfuel.com/wallpapers/314/359/desktop-wallpaper-cricket-ideas-in-2022-cricket-cricket-poster-cricket-logo-cricket-batting.jpg"></q-img>
-        </q-toolbar-title>
+
+        </div>
+        </div>
+       <div class="col-12 col-md-4 md:text-center md:mt-5">
+        <q-btn to="/" class="px-10 mb-4 md:mb-0 mx-10 md:mx-14 " outline color="warning" label="Home" />
+       </div>
+
+        </div>
 
 
-      </q-toolbar>
+
     </q-header>
 
     <q-drawer
@@ -33,11 +42,17 @@
 
         </q-item-label>
 
-        <EssentialLink
-          v-for="link in essentialLinks"
-          :key="link.title"
-          v-bind="link"
-        />
+        <div>
+          <div class="pb-14 text-2xl text-yellow-500 text-center">
+            <q-img class="w-[100px] rounded-[400px] animate-spin border-4 border-yellow-500" src="https://png.pngtree.com/png-vector/20190508/ourmid/pngtree-gallery-vector-icon-png-image_1027754.jpg"></q-img>
+          </div>
+          <q-btn to="/single" flat class="w-full text-bold text-xl py-5 " color="warning" label="Player's photo" />
+          <q-btn to="/image" flat class="w-full text-bold text-xl py-5 " color="warning" label="Group photo" />
+          <q-btn to="/bsti" flat class="w-full text-bold text-xl py-5 " color="warning" label="BSTI field" />
+          <q-btn to="/video" flat class="w-full text-bold text-xl py-5" color="warning" label="Our Videos" />
+        </div>
+
+
       </q-list>
     </q-drawer>
 
@@ -49,65 +64,22 @@
 
 <script>
 import { defineComponent, ref } from 'vue'
-import EssentialLink from 'components/EssentialLink.vue'
 
-const linksList = [
-  {
-    title: 'History',
 
-    icon: 'book',
-    link: '/'
-  },
-  {
-    title: 'Group Image',
 
-    icon: 'group',
-    link: 'http://localhost:8080/#/image'
-  },
-  {
-    title: 'Players Image',
-
-    icon: 'people',
-    link: 'http://localhost:8080/#/single'
-  },
-  {
-    title: 'Forum',
-
-    icon: 'record_voice_over',
-    link: 'https://forum.quasar.dev'
-  },
-  {
-    title: 'Twitter',
-
-    icon: 'rss_feed',
-    link: 'https://twitter.quasar.dev'
-  },
-  {
-    title: 'Facebook',
-
-    icon: 'public',
-    link: 'https://facebook.quasar.dev'
-  },
-  {
-    title: 'Quasar Awesome',
-
-    icon: 'favorite',
-    link: 'https://awesome.quasar.dev'
-  }
-]
 
 export default defineComponent({
   name: 'MainLayout',
 
   components: {
-    EssentialLink
+
   },
 
   setup () {
     const leftDrawerOpen = ref(false)
 
     return {
-      essentialLinks: linksList,
+
       leftDrawerOpen,
       toggleLeftDrawer () {
         leftDrawerOpen.value = !leftDrawerOpen.value

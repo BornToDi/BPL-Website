@@ -3,23 +3,24 @@
     <div class=" bg-sky-950 h-screen">
     <q-parallax :height="450" :speed="0.5">
       <template v-slot:media>
-        <img src="https://cdn.quasar.dev/img/parallax2.jpg" />
+        <img class="border-b-orange-600 bg-cover bg-center h-[400px]" src="https://img.freepik.com/premium-vector/cricket-horizontal-banner-batsman-championship-background-use-cover-poster-template-brochure-decorated-flyer-banner_460848-3151.jpg" />
       </template>
 
-      <h1 class="text-yellow-400  text-4xl text-[100px] animate-pulse uppercase">
-       BSTI Premiure League
-      </h1>
+      <div class="container   ">
+       <span class="text1">BSTI Premiure League</span>
+       <span class="text2 text-base">Since from 2007 and still GOING ON!</span>
+      </div>
     </q-parallax>
 
     <section>
     <div class="flex min-h-screen items-center justify-center bg-slate-950">
       <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
         <div
-          class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30"
+          class="mx-2 group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30"
         >
-          <div class="h-[600px] w-[550px]">
+          <div class="h-[450px] w-[450px]">
             <img
-              class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
+              class="rounded-xl h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
               src="http://localhost:8080/img/12.0739e84d.jpg"
               alt=""
             />
@@ -30,7 +31,7 @@
           <div
             class="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0"
           >
-            <h1 class="font-dmserif text-3xl font-bold text-white">
+            <h1 class="font-dmserif text-3xl font-bold text-yellow-500">
               Player's Image
             </h1>
             <p
@@ -40,19 +41,19 @@
               <span class="text-teal-400 text-bold">US</span>
             </p>
             <q-btn
-              href="https://zihadulislam45.netlify.app/#/"
+             to="/single"
               rounded
-              label="Live Project"
+              label="Click Here"
               class="py-2 px-5 font-com text-sm bg-teal-950 hover:text-teal-200 text-white capitalize shadow shadow-black/60"
             />
           </div>
         </div>
         <div
-          class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30"
+          class=" mx-2 group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30"
         >
-          <div class="h-[600px] w-[550px]">
+          <div class=" h-[450px] w-[450px]">
             <img
-              class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
+              class="rounded-xl h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
               src="https://lh3.googleusercontent.com/p/AF1QipPSyLLCxT_7jnLwSGEbkFqXrO120u0IxW_t_f6x=s680-w680-h510"
               alt=""
             />
@@ -63,7 +64,7 @@
           <div
             class="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0"
           >
-            <h1 class="font-dmserif text-3xl font-bold text-white">
+            <h1 class="font-dmserif text-3xl font-bold text-yellow-500">
               Group Image
             </h1>
             <p
@@ -82,11 +83,11 @@
           </div>
         </div>
         <div
-          class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30"
+          class="mx-2 group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30"
         >
-          <div class="h-[600px] w-[550px]">
+          <div class=" h-[450px] w-[450px]">
             <img
-              class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
+              class=" rounded-xl h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
               src="https://lh3.googleusercontent.com/p/AF1QipNqCDlQJll1DMBvhxagdnEuwwytF9Civc2IQLhS=s680-w680-h510"
               alt=""
             />
@@ -97,7 +98,7 @@
           <div
             class="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0"
           >
-            <h1 class="font-dmserif text-3xl font-bold text-white">
+            <h1 class="font-dmserif text-3xl font-bold text-yellow-500">
               Bsti Quater
             </h1>
             <p
@@ -140,6 +141,48 @@ export default defineComponent({
 
 *
 {
+  .container{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+  .container span{
+    text-transform: uppercase;
+    display: block;
+  }
+.text1{
+  color: aliceblue;
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 8px;
+  margin-bottom: 20px;
+  background: black;
+  position: relative;
+  animation: text 3s 1;
+}
+.text2{
+  font-size: 30px;
+  color: aqua;
+}
 
+@keyframes text{
+  0%{
+    color: black;
+    margin-bottom: -40px;
+  }
+  30%
+  {
+    letter-spacing: 25px;
+    margin-bottom: -40px;
+  }
+  85%
+  {
+    letter-spacing: 8px;
+    margin-bottom: -40px;
+  }
+}
 }
 </style>
