@@ -46,10 +46,11 @@
           <div class="pb-14 text-2xl text-yellow-500 text-center">
             <q-img class="w-[100px] rounded-[400px] animate-spin border-4 border-yellow-500" src="https://png.pngtree.com/png-vector/20190508/ourmid/pngtree-gallery-vector-icon-png-image_1027754.jpg"></q-img>
           </div>
-          <q-btn to="/single" flat class="w-full text-bold text-xl py-5 " color="warning" label="Player's photo" />
-          <q-btn to="/image" flat class="w-full text-bold text-xl py-5 " color="warning" label="Group photo" />
-          <q-btn to="/bsti" flat class="w-full text-bold text-xl py-5 " color="warning" label="BSTI field" />
-          <q-btn to="/video" flat class="w-full text-bold text-xl py-5" color="warning" label="Our Videos" />
+          <q-btn to="/single" flat class="w-full text-bold text-xl py-5 bg-yellow-200 bg-opacity-5 my-1 rounded-sm" color="warning" label="Player's photo" />
+          <q-btn to="/image" flat class="w-full text-bold text-xl py-5 bg-yellow-200 bg-opacity-5 my-1 rounded-sm" color="warning" label="Group photo" />
+          <q-btn to="/bsti" flat class="w-full text-bold text-xl py-5 bg-yellow-200 bg-opacity-5 my-1 rounded-sm" color="warning" label="BSTI field" />
+          <q-btn to="/video" flat class="w-full text-bold text-xl py-5 bg-yellow-200 bg-opacity-5 my-1 rounded-sm" color="warning" label="Our Videos" />
+          <q-btn to="/oldday" flat class="w-full text-bold text-xl py-5 bg-yellow-200 bg-opacity-5 my-1 rounded-sm" color="warning" label="Old Days" />
         </div>
 
 
