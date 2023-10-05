@@ -124,7 +124,7 @@
           <div class="h-[450px] w-[450px]">
             <img
               class="rounded-xl h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
-              src="http://localhost:8080/img/12.0739e84d.jpg"
+              src="~assets/10.jpg"
               alt=""
             />
           </div>
@@ -157,7 +157,7 @@
           <div class=" h-[450px] w-[450px]">
             <img
               class="rounded-xl h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
-              src="https://lh3.googleusercontent.com/p/AF1QipPSyLLCxT_7jnLwSGEbkFqXrO120u0IxW_t_f6x=s680-w680-h510"
+              src="~assets/player30.jpg"
               alt=""
             />
           </div>
