@@ -28,4 +28,10 @@
 
 
   </div>
+  <section>
+      <div class="text-center text-lg bg-teal-950 text-slate-100 py-6">
+        Copyright © 2023 Advance Safety Engineering | Powered by Advance Safety
+        Engineering
+      </div>
+    </section>
 </template>

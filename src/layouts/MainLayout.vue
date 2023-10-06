@@ -3,7 +3,7 @@
     <q-header elevated class=" bg-sky-950 text-yellow-400 text-bold">
 
         <div class="row">
-          <div class="col-12 col-md-8 flex mt-5 md:mt-0 pl-2 md:pl-5 ">
+          <div class="col-8 col-md-10 flex  md:mt-0 pl-2 md:pl-5 ">
           <q-btn
           flat
           dense
@@ -19,9 +19,20 @@
 
         </div>
         </div>
-       <div class="col-12 col-md-4 md:text-center md:mt-5">
-        <q-btn to="/" class="px-10 mb-4 md:mb-0 mx-10 md:mx-14 " outline color="warning" label="Home" />
+       <div class=" col-4 col-md-2 flex items-center  md:mt-5">
+        <q-btn to="/" flat>
+          <q-icon  class="  md:mx-2 "  color="warning" name="house" />
+
+        </q-btn>
+
+       <q-btn to="/contact" flat>
+        <q-icon  class="  md:mx-2 "  color="warning" name="phone" />
+       </q-btn>
+
+
        </div>
+
+
 
         </div>
 

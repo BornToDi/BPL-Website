@@ -52,27 +52,17 @@
         <div class="col-12 col-md-4">
           <q-img class="md:w-[400px]  md:ml-[100px] my-2 md:my-[20px] text-center rounded-md border-4 md:border-2  border-amber-500" src="~assets/old-6.jpg"></q-img>
         </div>
-        <div class="col-12 col-md-6 text-lg md:text-2xl ml-2 md:ml-10 my-2 md:my-[20px] md:pt-10 text-yellow-500 md:pr-40">
+        <div class=" animate-pulse col-12 col-md-6 text-lg md:text-2xl ml-2 md:ml-10 my-2 md:my-[20px] md:pt-10 text-yellow-500 md:pr-40">
 
 
-  <span1>We </span1>
-  <span1 class="px-1"> have</span1>
-  <span1 class="px-1">been</span1>
-  <span1 class="px-1">running</span1>
-  <span1 class="px-1">this</span1>
-  <span1 class="px-1" >tournament</span1>
-  <span1 class="px-1">since 2007.</span1>
-  <span1 class="px-1">This is</span1>
-  <span1 class="px-1">the biggest</span1>
-  <span1 class="px-1">tournament</span1>
-
-  <span1 class="px-1">in our colony.</span1>
-  <span1 class="px-1">Lot</span1>
-  <span1 class="px-1">of</span1>
-  <span1 class="px-1">memmorys</span1>
-  <span1 class="px-1">created</span1>
-  <span1 class="px-1">from</span1>
-  <span1 v>here.</span1>
+          Each time a total of five teams participate in this tournament. There are five teams and each team has owner who buy the players through the auction.
+           <div class="flex pl-1 gap-1 md:gap-3 md:mt-10">
+            <q-img class="w-[70px] md:w-[100px]" src="~assets/logo1.jpg"/>
+            <q-img class="w-[70px] md:w-[100px]" src="~assets/logo2.jpg"/>
+            <q-img class="w-[70px] md:w-[100px]" src="~assets/logo3.jpg"/>
+            <q-img class="w-[70px] md:w-[100px]" src="~assets/logo5.jpg"/>
+            <q-img class="w-[70px] md:w-[100px]" src="~assets/logo4.jpg"/>
+           </div>
 
 
 
@@ -87,27 +77,10 @@
         <div class="col-12 col-md-4">
           <q-img class="md:w-[400px]  md:ml-[100px] my-2 md:my-[20px] text-center rounded-md border-4 md:border-2  border-amber-500" src="~assets/wow1.jpg"></q-img>
         </div>
-        <div class="col-12 col-md-6 text-lg md:text-2xl ml-2 md:ml-10 my-2 md:my-[20px] md:pt-10 text-yellow-500 md:pr-40">
+        <div class=" animate-pulse mb-10 md:mb-0 col-12 col-md-6 text-lg md:text-2xl ml-2 md:ml-10 my-2 md:my-[20px] md:pt-10 text-yellow-500 md:pr-40">
 
 
-  <span1>We </span1>
-  <span1 class="px-1"> have</span1>
-  <span1 class="px-1">been</span1>
-  <span1 class="px-1">running</span1>
-  <span1 class="px-1">this</span1>
-  <span1 class="px-1" >tournament</span1>
-  <span1 class="px-1">since 2007.</span1>
-  <span1 class="px-1">This is</span1>
-  <span1 class="px-1">the biggest</span1>
-  <span1 class="px-1">tournament</span1>
-
-  <span1 class="px-1">in our colony.</span1>
-  <span1 class="px-1">Lot</span1>
-  <span1 class="px-1">of</span1>
-  <span1 class="px-1">memmorys</span1>
-  <span1 class="px-1">created</span1>
-  <span1 class="px-1">from</span1>
-  <span1 v>here.</span1>
+          We hold this tournament every year around the month of december.Everytime we complete this tournament by collecting a certain amount of contribution from the players. And most lovely thing is , at the end of the sports there is a prize arrangement at night as well as a chess dinner.
 
 
 
@@ -224,7 +197,12 @@
   </section>
 
 
-
+  <section>
+      <div class="text-center text-lg bg-teal-950 text-slate-100 py-6">
+        Copyright © 2023 Advance Safety Engineering | Powered by Advance Safety
+        Engineering
+      </div>
+    </section>
 
   </div>
  </div>

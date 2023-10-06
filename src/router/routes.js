@@ -9,7 +9,9 @@ const routes = [
       { path: '/single', component: () => import('pages/singleImg.vue') },
       { path: '/bsti', component: () => import('pages/bstiPhoto.vue') },
        { path: '/video', component: () => import('pages/videoBsti.vue') },
-       { path: '/oldday', component: () => import('pages/oldDays.vue') }
+       { path: '/oldday', component: () => import('pages/oldDays.vue') },
+       { path: '/contact', component: () => import('pages/contactMe.vue') },
+       { path: '/bloodgrp', component: () => import('pages/addBlood.vue') }
     ]
   },
 
