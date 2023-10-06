@@ -62,6 +62,7 @@
           <q-btn to="/bsti" flat class="w-full text-bold text-xl py-5 bg-yellow-200 bg-opacity-5 my-1 rounded-sm" color="warning" label="BSTI field" />
           <q-btn to="/video" flat class="w-full text-bold text-xl py-5 bg-yellow-200 bg-opacity-5 my-1 rounded-sm" color="warning" label="Our Videos" />
           <q-btn to="/oldday" flat class="w-full text-bold text-xl py-5 bg-yellow-200 bg-opacity-5 my-1 rounded-sm" color="warning" label="Old Days" />
+          <q-btn to="/bloodgrp" flat class="w-full text-bold text-xl py-5 bg-yellow-200 bg-opacity-5 my-1 rounded-sm" color="warning" label="Blood Group" />
         </div>
 
 
